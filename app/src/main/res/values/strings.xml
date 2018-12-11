@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SocketConnectivity</string>
+    <string name="check_internet">No internet connection!</string>
+    <string name="connection_msg">Socket connected successfully!</string>
+</resources>

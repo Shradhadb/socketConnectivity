@@ -47,8 +47,11 @@ class MainActivity : AppCompatActivity() {
 
     private val onConnect = Emitter.Listener {
         Utility.displaySnackBar(parent_layout, getString(R.string.connection_msg))
-        // "emit" to send message to socket
-        mSocket!!.emit("YOUR_KEY", "message")
+         /*"emit" to send message to socket
+         On client side you just have to emit your roomName or RoomId in order to connect with room
+         room join should happens in the server side*/
+
+        mSocket!!.emit("join-room" , "roomName or RoomId")
     }
 
     private val onDisconnect = Emitter.Listener {

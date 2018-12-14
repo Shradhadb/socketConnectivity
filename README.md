@@ -1,15 +1,15 @@
 Android library to join socket room.
 
-Features
+# Features
 
-socketConnectivity
+- socketConnectivity
 
-Join room via socket
+- Join room via socket
 
-Requirements
+# Requirements
 
-Android studio
+- Android studio
 
-Note: 
+# Note 
 
-Please change "SOCKET_URL" in Constants with your server URL
+- Please change "SOCKET_URL" in Constants with your server URL
